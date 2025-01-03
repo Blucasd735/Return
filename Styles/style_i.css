@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+section{
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 10px;
+    border-style: inset;
+    border-color: white;
+}
+
+body{
+    background-color: black;
+}
+
+.titulo{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    color:rgb(255, 255, 255);
+}
+
+.links{
+    border-color: white;
+    text-decoration: none;
+    margin-top: 2%;
+}
+
+ul{
+    color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
