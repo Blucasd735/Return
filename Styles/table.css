@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+:root {
+    --cor1: brown;
+    --fonte: 
+  }
+
 .tabela-simples{
     margin: auto;
 
@@ -7,6 +12,7 @@
 
 h1{
     text-align: center;
+    color: var(--cor1);
     font-family: sans-serif;
     font-weight: bold;
     font-size: 36px;
@@ -37,4 +43,11 @@ td{
     border-color: rgb(0, 0, 129);
     border-style: solid;
     padding: 8px;
+}
+
+p{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: bold;
 }
